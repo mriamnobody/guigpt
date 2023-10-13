@@ -20,7 +20,7 @@ else:
     pass
 
 root = tkinter.Tk()
-root.title("GPT API GUI")
+root.title("GUI GPT")
 
 root.state('zoomed')
 
