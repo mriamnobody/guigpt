@@ -1,5 +1,7 @@
 # guigpt
 
+# Built by the GPT and for the GPT
+
 ## Description:
 This GitHub repository houses a user-friendly and intuitive Graphical User Interface (GUI) built using the Tkinter library in Python. Currently in its nascent stage, this GUI seamlessly integrates with the GPT API, allowing users to interact with the powerful language model effortlessly.
 
