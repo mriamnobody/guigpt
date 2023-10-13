@@ -9,11 +9,18 @@ from tkinter import font
 
 openai.api_key = ''
 
-output_file_path = "assets\gui_output.txt"
+output_file_path = "gui_output.txt"
+
+if not os.path.exists(output_file_path):
+    with open(output_file_path, "w") as file:
+        # Perform any initial setup or write any default content to the file if needed
+        file.write("Initial content")
+    print("File created successfully!")
+else:
+    pass
 
 root = tkinter.Tk()
 root.title("GPT API GUI")
-root.iconbitmap('assets/download.ico')
 
 root.state('zoomed')
 
